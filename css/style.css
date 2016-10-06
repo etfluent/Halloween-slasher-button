@@ -1,0 +1,29 @@
+body{
+	margin: 0px;
+}
+
+#butt-cont{
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-top: 8vh;
+	margin-bottom: 8vh;
+}
+
+.smack {
+	position: relative;
+	animation: smack .03s linear 1;
+	background-image:url(../images/Give_Blood.png);
+}
+
+button{
+	width: 100px;
+	height: 50px;
+	background-color: #ffffff;
+}
+
+@keyframes smack {
+    0%   {left:2px;background-position: 45% 55%;background-image:url(../images/Give_Blood.png);}
+    50%  {left:-2px;top:-1px;background-position: 45% 55%;background-image:url(../images/Give_Blood.png);}
+    100% {left:0px;background-image:url(../images/Give_Blood.png);}
+}
